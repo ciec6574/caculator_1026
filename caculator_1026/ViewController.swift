@@ -31,6 +31,16 @@ class ViewController: UIViewController {
         z = x - y
         text_03.text = "\(z)"
     }
+    @IBAction func cheng(_ sender: Any) {
+        var x = 0
+        x = Int(text_01.text!)!
+        var y = 0
+        y = Int(text_02.text!)!
+        var z:Int=0
+        z = x * y
+        text_03.text = "\(z)"
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

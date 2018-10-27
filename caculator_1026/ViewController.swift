@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var text_01: UITextField!
     @IBOutlet var text_02: UITextField!
     @IBOutlet var text_03: UITextField!
-    @IBAction func caculator(_ sender: Any) {
+    @IBAction func addition(_ sender: Any) {
         var x:Double=0
         x = Double(text_01.text!)!
         var y:Double=0
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         z = x + y
         text_03.text = "\(z)"
     }
-    @IBAction func jian(_ sender: Any) {
+    @IBAction func subtraction(_ sender: Any) {
         var x:Double=0
         x = Double(text_01.text!)!
         var y:Double=0
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         z = x - y
         text_03.text = "\(z)"
     }
-    @IBAction func cheng(_ sender: Any) {
+    @IBAction func multiplication(_ sender: Any) {
         var x:Double=0
         x = Double(text_01.text!)!
         var y:Double=0

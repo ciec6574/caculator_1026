@@ -23,7 +23,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="计算加"/>
                                 <connections>
-                                    <action selector="caculator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lc4-xP-9qk"/>
+                                    <action selector="addition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwc-6v-gr0"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qR8-fS-u0Q" userLabel="X">
@@ -53,7 +53,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="计算减"/>
                                 <connections>
-                                    <action selector="jian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xxA-1s-9ju"/>
+                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6cl-Qp-3UO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="749-fA-rbp">
@@ -62,7 +62,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="计算乘"/>
                                 <connections>
-                                    <action selector="cheng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jDh-OQ-68t"/>
+                                    <action selector="multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Tg-8l-uEJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6j-ER-iqM">
@@ -71,7 +71,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="计算除"/>
                                 <connections>
-                                    <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="isb-xn-oFY"/>
+                                    <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JL9-9c-y1d"/>
                                 </connections>
                             </button>
                         </subviews>
